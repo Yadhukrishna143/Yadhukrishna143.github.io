@@ -1,0 +1,62 @@
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+.myMargin{
+    margin: 100px;
+}
+.navbar-brand{
+    text-align: center;
+    float: right;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-menu a:hover{
+    background-color: teal;
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+.arrange{
+    
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+body{
+
+    background-size: cover;
+}
+.navbar-brand{
+    padding-left: 33%;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#para mark{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    color: black;
+}
+#heading mark{
+    background-color: teal;
+    color: black;
+}
+footer{
+    background: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 40.56%;
+    
+}
+footer h6{
+    text-align: center;
+}
+
+
+
+

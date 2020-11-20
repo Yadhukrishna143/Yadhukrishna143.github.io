@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- form starts here -->
+    <div class="form-edit">
+        <form action="#" onsubmit="return validate();" onsubmit="return validatepwd();">
+                <input type="text" id="text1" placeholder="Your mail">
+                <label for="error" style="color: red;visibility: hidden;" id="lbltext">Invalid email</label>
+                <input type="password" id="pwd" placeholder="Your password">
+                <label for="error" style="color: red;visibility: hidden;" id="lblpass">Invalid password</label>
+                <p id="check"> <span> <input type="checkbox" style="color: #fff;"></span>Forgot password</p>
+                <br>
+                <button type="submit" class="login">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="loginpass.js"></script>
+</body>
+</html>

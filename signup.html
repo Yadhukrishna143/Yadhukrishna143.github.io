@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <div class="Sign-up-form">
+        <img src="./Images/signuplogo.jpg">
+        <h1>Sign Up now</h1>
+        <form action="#" onsubmit="return validate();">
+            <input type="text" class="input-box" id="cell-no" placeholder="Mob no"> 
+            <label id="lbltext" style="color: red; visibility: hidden;">Invalid no</label>
+            <input type="email" class="input-box" placeholder="Your mail">
+            <input type="password" class="input-box" placeholder="Your password">
+            <p> <span> <input type="checkbox"></span> I agree to the terms & conditions</p>
+            <button type="onsubmit" class="Sign-Up-btn">Sign Up</button>
+            <hr>
+            <p class="or">OR </p>
+            <button type="button" class="gmail-btn">Login with gmail</button>
+            <p>Do you have an account? <a href="#">Sign in </a></p>
+        </form>
+
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
